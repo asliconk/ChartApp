@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinamik Grafik Uygulaması</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container text-center">
+        <h1>Canlı Grafik Uygulaması</h1>
+    </div>
+    <br />
+
+    <div class="container-fluid g-0">
+        <div class="row">
+            <div class="col-md-6">
+                <h3 class="text-center">Aşağıya Veritabanı Bilgilerini Giriniz</h3>
+                <form id="dbForm">
+                    <div class="form-row mb-3">
+                        <div class="col-md-3">
+                            <input type="text" class="form-control" id="server" placeholder="Sunucu" required>
+                        </div>
+                        <div class="col-md-3">
+                            <input type="text" class="form-control" id="user" placeholder="Kullanıcı Adı" required>
+                        </div>
+                        <div class="col-md-3">
+                            <input type="password" class="form-control" id="pass" placeholder="Şifre" required>
+                        </div>
+                        <div class="col-md-3">
+                            <input type="text" class="form-control" id="db" placeholder="Veritabanı" required>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Bağlan</button>
+                    <span id="connectionMessage" style="display:none; color: green;"></span>
+                </form>
+                <br />
+            </div>
+            <div class="col-md-6"> <br />
+                <div id="procedureId" class="input-group mb-3" style="display: none;">
+                    <button id="executeProcedureButton" class="btn btn-primary" style="margin-left: 10px; padding: 10px 20px; font-size: 16px;">SP Grafiği Oluştur</button>
+                    <select id="proceduresComboBox" class="form-select" style="width: 50%; padding: 10px; border-radius: 5px; border: 1px solid #ccc; font-size: 16px;">
+                        <option value="">Bir SP Seç</option>
+                    </select>
+                </div>
+
+                <div id="viewId" class="input-group mb-3" style="display: none;">
+                    <button id="executeViewButton" class="btn btn-primary" style="margin-left: 10px; padding: 10px 20px; font-size: 16px;">View Grafiği Oluştur</button>
+                    <select id="viewsComboBox" class="form-select" style="width: 50%; padding: 10px; border-radius: 5px; border: 1px solid #ccc; font-size: 16px;">
+                        <option value="">Bir View Seç</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div id="graph" class="col-md-12" style="display: none;">
+                <div class="d-flex justify-content-center">
+                    <button id="lineChartButton" class="btn btn-success mx-1" onClick="createLineChart()">Çizgi Grafiği</button>
+                    <button id="barChartButton" class="btn btn-danger mx-1" onClick="createBarChart()">Çubuk Grafiği</button>
+                    <canvas id="myChart"></canvas>
+                </div>
+                <br>
+                <br>
+                <div class="text-center">
+                    <button id="resetButton" class="btn btn-secondary">Temizle</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

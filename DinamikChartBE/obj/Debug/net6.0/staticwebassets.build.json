@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "Ckhoqr90jdNjBc2vGXFeaJg0egMbJwX7W+okld6W4dc=",
+  "Source": "DinamikChartBE",
+  "BasePath": "_content/DinamikChartBE",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "DinamikChartBE\\wwwroot",
+      "Source": "DinamikChartBE",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\task\\DinamikChartBE\\DinamikChartBE\\DinamikChartBE\\wwwroot\\",
+      "BasePath": "_content/DinamikChartBE",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\HP\\Desktop\\task\\DinamikChartBE\\DinamikChartBE\\DinamikChartBE\\wwwroot\\index.html",
+      "SourceId": "DinamikChartBE",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\task\\DinamikChartBE\\DinamikChartBE\\DinamikChartBE\\wwwroot\\",
+      "BasePath": "_content/DinamikChartBE",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\Desktop\\task\\DinamikChartBE\\DinamikChartBE\\DinamikChartBE\\wwwroot\\script.js",
+      "SourceId": "DinamikChartBE",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\task\\DinamikChartBE\\DinamikChartBE\\DinamikChartBE\\wwwroot\\",
+      "BasePath": "_content/DinamikChartBE",
+      "RelativePath": "script.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\script.js"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\Desktop\\task\\DinamikChartBE\\DinamikChartBE\\DinamikChartBE\\wwwroot\\style.css",
+      "SourceId": "DinamikChartBE",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\task\\DinamikChartBE\\DinamikChartBE\\DinamikChartBE\\wwwroot\\",
+      "BasePath": "_content/DinamikChartBE",
+      "RelativePath": "style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\style.css"
+    }
+  ]
+}

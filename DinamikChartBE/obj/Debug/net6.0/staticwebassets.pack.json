@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\task\\DinamikChartBE\\DinamikChartBE\\DinamikChartBE\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\task\\DinamikChartBE\\DinamikChartBE\\DinamikChartBE\\wwwroot\\script.js",
+      "PackagePath": "staticwebassets\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\task\\DinamikChartBE\\DinamikChartBE\\DinamikChartBE\\wwwroot\\style.css",
+      "PackagePath": "staticwebassets\\style.css"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.DinamikChartBE.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.DinamikChartBE.props",
+      "PackagePath": "build\\DinamikChartBE.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.DinamikChartBE.props",
+      "PackagePath": "buildMultiTargeting\\DinamikChartBE.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.DinamikChartBE.props",
+      "PackagePath": "buildTransitive\\DinamikChartBE.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
